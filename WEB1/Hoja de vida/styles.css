@@ -1,0 +1,89 @@
+*{
+    font-family: 'arial';
+  }
+  body{
+    background-color: #037269;
+  }
+  .contenido{
+    width: 80%;
+    margin: auto;
+  }
+  div{
+    border-radius: 10px;
+  }
+  
+  .seccion1datos{
+    background-color: #7accfc;
+    border: 2px solid black;
+  }
+  .titulo{
+    font-size: 38px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  .datosgrid-container{
+    display: grid;
+    background-color: #7accfc;
+    grid-template-columns: 35% 35% auto;
+  }
+  
+  .datosgrid-container div img{
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  .seccion2estudios{
+    background-color: #7accfc;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+  .estudios{
+    display: grid;
+    background-color: #7accfc;
+    grid-template-columns: 33% 33% 34%;
+  }
+  
+  .seccion3explaboral{
+    background-color: #7accfc;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+  .seccion3explaboral div{
+    display: grid;
+    background-color: #7accfc;
+  }
+  
+  .seccion4capacitacion{
+    background-color: #7accfc;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+  .seccion4capacitacion div{
+    display: grid;
+    background-color: #7accfc;
+  }
+  
+  .seccion5referencias{
+    background-color: #7accfc;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+  .grid-container{
+    display: grid;
+    background-color: #7accfc;
+    grid-template-rows: 33% 33% 33%;
+  }
+  .grid-container div{
+    background-color: #7accfc;
+    color: black;
+    border: 1px solid white;
+  }
+  
+  p, h3{
+    margin-left: 5px;
+    font-size: 18px;
+  }
